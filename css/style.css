@@ -349,12 +349,46 @@ a:active {
 	margin-top: -60%;
 }
 
+.fadetext h1{
+	/* font-size: 100vw; */
+}
 .what {
 	font-size: 4rem;
 	font-weight: 300;
 	letter-spacing: 0.3rem;
 }
+.what-par{
+	
+	position: relative;
+}
 
+.atlassian{
+	display: flex;
+	justify-content: center;
+	/* width: 80%; */
+}
+
+.event-partner{
+	top: 5%;
+	font-size: 4rem;
+	display: flex;
+	justify-content: center;
+}
+
+.fadetext{
+	position: absolute;
+	width: 100%;
+	user-select: none;
+	text-align: center;
+	top: -90%;
+
+}
+.fadetext div{
+	opacity: 5%;
+	font-stretch: ultra-expanded;
+	font-size: 9vw;
+	font-weight: bold;
+}
 .brochure-box {
 	max-width: 80%;
 	background: -webkit-linear-gradient(0deg, rgba(33, 27, 92, 0.8018557764902836) 35%, rgba(11, 11, 46, 0.3536765047816002) 100%);
@@ -2679,6 +2713,8 @@ border-radius: 200px;
 	top: 0;
 	z-index: 1;
 	letter-spacing: 4px;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color:#6C63FF;
 }
 
 .fancy_heading_shadow {
@@ -2694,6 +2730,7 @@ border-radius: 200px;
 	-webkit-text-stroke: 4px transparent;
 	color: #07071C;
 }
+
 
 .hackademic-text {
 	font-style: normal;
@@ -3008,6 +3045,7 @@ border-radius: 200px;
 	.theme-list-para {
 		margin-top: 1rem;
 	}
+	
 	.what {
 		font-size: 2rem;
 		letter-spacing: 0.2rem;
